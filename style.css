@@ -1,0 +1,253 @@
+/* basic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* здесь взяли шрифты с google fonts  */
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_social {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.social_icon_vk,
+.social_icon_telegram,
+.social_icon_whatsUp {
+    width: 32px;
+    height: 23px;
+}
+
+.bakground-container {
+    background-color: #F8F8FD;
+    border-radius: 15px;
+}
+
+.info-box {
+    margin-top: 25px;
+    display: flex;
+    margin-left: 50px;
+    background-color: #F8F8FD;
+    width: 855px;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+.info-list>li {
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: #9999A3;
+    border-bottom: 1px solid #EDEDF9;
+
+}
+
+.right>li {
+    color: #2F2F33;
+}
+
+/* main */
+.main-wrapper {
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+.main-box {
+    margin-left: 315px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EDEDF9;
+}
+
+/* ==== */
+
+.main-content {
+    max-width: 64%;
+    padding-bottom: 15px;
+}
+
+.main-list:nth-child(1n) {
+    color: #9999A3;
+}
+
+/* нужно добавить стили для контента */
+/* и стилизовать остальные секции */
+
+.main-text {
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    background-color: #A9A9FD;
+    border-radius: 8px;
+
+}
+
+.main-text-more {
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    background-color: #F1A9FD;
+    border-radius: 8px;
+
+}
+
+.name {
+    color: #2F2F33;
+    padding-left: 320px;
+    font-weight: 700
+}
+
+
+.main-text-skills,
+.main-text-languages,
+.main-text-aboutme {
+    color: #BCBCC2;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    padding-left: 315px;
+}
+
+.when {
+    color: #2F2F33;
+}
+
+.how-long {
+
+    color: #BCBCC2;
+}
+
+.job-description {
+    color: #2F2F33;
+    padding-top: 20px;
+}
+
+.text {
+
+    color: #2F2F33;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    background-color: #F5F5FA;
+    border-radius: 8px;
+}
+
+.headline-main {
+    color: #BCBCC2;
+    padding-left: 315px;
+}
+
+
+.skills {
+    padding-left: 315px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.language {
+    padding-left: 315px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.about-me-text {
+    color: #2F2F33;
+}
+
+.about-me {
+    padding-left: 315px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-main {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container-footer {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-box {
+
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    width: 815px;
+    border-bottom: 1px solid #EDEDF9;
+}
+
+.main-text {
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    background-color: #A9A9FD;
+    border-radius: 8px;
+
+}
+
+
+.header-content {
+    padding-left: 20px;
+}
+
+.header-content:first-child {
+    padding-left: 100px;
+}
+
+.header-content:y {
+    padding-left: 100px;
+}
+
+v .header-list {
+    margin: 0;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.item {
+    color: #9999A3;
+}
+
+.header-list2 {
+    color: #2F2F33;
+}
